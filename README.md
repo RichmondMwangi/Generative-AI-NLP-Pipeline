@@ -24,6 +24,4 @@ jac run todo-ai.jac
 
 - [Jac Language](https://github.com/Jaseci-Labs/jaclang) (`pip install jaclang`)
 - For AI features: `pip install byllm`
-- Gemini API key (for AI-powered game)
-- For AI features: `pip install byllm`
-- Gemini API key (for AI-powered game)
+- Gemini API key (set as GEMINI_API_KEY environment variable)

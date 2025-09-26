@@ -1,8 +1,9 @@
 """An AI-Enhanced To-Do List"""
 
 import from byllm.llm { Model }
+import os;
 
-glob llm = Model(model_name="gemini/gemini-2.0-flash", api_key="AIzaSyBM_TTDQ4f66PMe9RtI-JLVRlCzUJzNMtQ", verbose=False);
+glob llm = Model(model_name="gemini/gemini-2.0-flash", verbose=False);
 
 """Generate a motivational message for completing a task"""
 def get_motivation(task: str) -> str by llm();
